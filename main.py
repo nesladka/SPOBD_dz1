@@ -24,6 +24,7 @@ plt.plot(perpendicular_x, perpendicular_y, linestyle='dotted', color='green', la
 
 plt.title('Линейная функция')
 
+# Добавление текстовых меток
 plt.text(10, 16, '4*X1 + 5*X2 = 141', fontsize=10, color='blue', rotation=-38.7)
 plt.text(20, 5, 'x1=19', fontsize=10, color='purple', rotation=270)  
 plt.text(5, 17.5, 'x2=17', fontsize=10, color='orange') 
