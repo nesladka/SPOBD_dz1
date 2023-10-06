@@ -19,3 +19,5 @@ plt.arrow(0, 0, 3, 5, head_width=0.5, head_length=0.7, fc='red', ec='red', label
 
 perpendicular_x = np.array([5, -5])
 perpendicular_y = np.array([-3, 3])
+
+plt.plot(perpendicular_x, perpendicular_y, linestyle='dotted', color='green', label='перпендикуляр')  
