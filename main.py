@@ -15,6 +15,7 @@ plt.ylabel('x2')
 # Ограничение
 plt.plot(x1, (141 - 4 * x1) / 5, label='4*X1 + 5*X2 = 141', color='blue', linestyle='dotted')
 
+#Добавляем линии x и y
 plt.axvline(x=19, color='purple', linestyle='dotted', label='x1=19')  
 plt.axhline(y=17, color='orange', linestyle='dotted', label='x2=17') 
 
