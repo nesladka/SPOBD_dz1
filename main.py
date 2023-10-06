@@ -14,3 +14,5 @@ plt.plot(x1, (141 - 4 * x1) / 5, label='4*X1 + 5*X2 = 141', color='blue', linest
 
 plt.axvline(x=19, color='purple', linestyle='dotted', label='x1=19')  
 plt.axhline(y=17, color='orange', linestyle='dotted', label='x2=17') 
+
+plt.arrow(0, 0, 3, 5, head_width=0.5, head_length=0.7, fc='red', ec='red', label='вектор z (3, 5)') 
