@@ -37,4 +37,4 @@ plt.text(3, 2.5, 'z (3, 5)', fontsize=10, color='red')
 
 plt.grid(True)
 plt.legend()
-plt.show() 
+plt.show() #Отображение графика
