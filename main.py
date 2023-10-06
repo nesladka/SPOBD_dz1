@@ -17,6 +17,7 @@ plt.axhline(y=17, color='orange', linestyle='dotted', label='x2=17')
 
 plt.arrow(0, 0, 3, 5, head_width=0.5, head_length=0.7, fc='red', ec='red', label='вектор z (3, 5)') 
 
+#Перпендикуляр к вектору Z
 perpendicular_x = np.array([5, -5])
 perpendicular_y = np.array([-3, 3])
 
